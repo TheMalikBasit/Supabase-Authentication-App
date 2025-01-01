@@ -3,6 +3,7 @@ import { supabase } from '@/lib/Supabase';
 import { StyleSheet, View, Alert, Text } from 'react-native';
 import { Button, Input } from '@rneui/themed';
 import { Session } from '@supabase/supabase-js';
+import React from 'react';
 
 export default function WelcomeScreen({ session }: { session: Session }){
     

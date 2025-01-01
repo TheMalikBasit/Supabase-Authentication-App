@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import React from 'react';
 import { supabase } from '@/lib/Supabase';
 import { StyleSheet, View, Alert, Text } from 'react-native';
 import { Button, Input } from '@rneui/themed';
